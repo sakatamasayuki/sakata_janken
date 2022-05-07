@@ -63,6 +63,7 @@ def janken
       puts hoi
     if $hoi_result == 1
       puts "You win!!"
+      exit
     elsif $hoi_result == 2
       puts "もう一度！"
     else
@@ -73,6 +74,7 @@ def janken
     puts hoi
     if $hoi_result == 1
       puts "You lose..."
+      exit
     elsif $hoi_result == 2
       puts "もう一度！"
     else
